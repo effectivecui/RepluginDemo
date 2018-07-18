@@ -3,14 +3,14 @@ buildscript {
     ext.kotlin_version = '1.2.30'
     repositories {
         maven {
-            url uri("/Users/huaixiang/Projects/myplugin/maven")
+            url uri("/Users/huaixiang/Projects/github/JavassistDemo/maven")
         }
         google()
         jcenter()
     }
     dependencies {
         classpath 'com.qihoo360.replugin:replugin-host-gradle:2.2.4'
-        classpath "com.test:myplugin:1.0.0"
+        classpath "com.test:JavassistDemo:1.0.0"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
